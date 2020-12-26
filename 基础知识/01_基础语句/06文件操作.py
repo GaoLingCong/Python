@@ -33,3 +33,6 @@ for temp  in content:
     i+=1
 f.close()  #关闭文件
 
+#文件重命名
+import  os #网上找方法
+os.rename("text.txt","glc")
